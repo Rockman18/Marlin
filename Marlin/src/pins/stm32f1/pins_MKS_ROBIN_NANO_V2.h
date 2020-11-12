@@ -195,7 +195,7 @@
 // Misc. Functions
 //
 #if HAS_TFT_LVGL_UI
-  //#define MKSPWC
+  #define MKSPWC
   #ifdef MKSPWC
     #define SUICIDE_PIN                     PB2   // Enable MKSPWC SUICIDE PIN
     #define SUICIDE_PIN_INVERTING          false  // Enable MKSPWC PIN STATE
@@ -257,9 +257,9 @@
   #define TOUCH_MISO_PIN                    PA6   // SPI1_MISO
   #define TOUCH_MOSI_PIN                    PA7   // SPI1_MOSI
 
-  #define BTN_EN1                           PE8
-  #define BTN_EN2                           PE11
-  #define BTN_ENC                           PE13
+  // #define BTN_EN1                           PE8
+  // #define BTN_EN2                           PE11
+  // #define BTN_ENC                           PE13
 
   #define TFT_CS_PIN                        PD11
   #define TFT_SCK_PIN                       PA5
